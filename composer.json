@@ -1,0 +1,26 @@
+{
+	"name": "skeeks/yii2-ozon-seller-api",
+	"description": "yii2 ozon seller api",
+	"keywords": ["yii", "app", "skeeks", "framework", "api"],
+    "homepage": "http://www.skeeks.com/",
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"support": {
+        "issues": "http://skeeks.com/",
+        "source": "https://github.com/skeeks-semenov/yii2-ozon-seller-api"
+    },
+	"authors": [
+		{
+			"name": "Semenov Alexander",
+			"email": "semenov@skeeks.com"
+		}
+	],
+	"require": {
+        "yiisoft/yii2-httpclient": "^2"
+	},
+    "autoload": {
+        "psr-4": {
+            "skeeks\\yii2\\ozonsellerapi\\": "src/"
+        }
+    }
+}
